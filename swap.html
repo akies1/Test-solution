@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWAP</title>
+</head>
+
+<body>
+    <h1>swap two number without third variable</h1>
+    <script>
+        var x;
+        x = parseInt(prompt("enter number 1 :"));
+        document.write("NUMBER 1 =" + x);
+        document.write("<br>");
+        var y;
+        y = parseInt(prompt("enter number 2 :"));
+        document.write("NUMER 2 =" + y);
+        document.write("<br>");
+        x = x + y;
+        y = x - y;
+        x = x - y;
+        document.write("after swap x =" + x + ", y =" + y);
+    </script>
+</body>
+
+</html>

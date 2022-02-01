@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find domain name </title>
+</head>
+
+<body>
+    <h1>find domain name from given email string </h1>
+    <script>
+        var email = "abc@gmail.com";
+        document.write("email address= " + email);
+        document.write("<br>");
+        var name = email.substring(0, email.lastIndexOf("@"));
+        var domain = email.substring(email.lastIndexOf("@") + 1);
+
+        document.write("domain name= " + domain);
+    </script>
+
+</body>
+
+</html>
